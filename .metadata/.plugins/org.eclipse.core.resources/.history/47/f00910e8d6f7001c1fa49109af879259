@@ -1,0 +1,5 @@
+package com.microservicemysql.controller;
+
+public class UsuarioController {
+
+}

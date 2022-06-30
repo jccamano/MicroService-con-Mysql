@@ -1,0 +1,33 @@
+package com.microservicemysql.services;
+
+import java.util.Optional;
+
+import com.microservicemysql.models.entity.UsuarioEntity;
+
+public class UsuarioServiceImplem implements UsuarioService {
+
+	@Override
+	public Iterable<UsuarioEntity> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<UsuarioEntity> findById(Long id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public UsuarioEntity save(UsuarioEntity usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

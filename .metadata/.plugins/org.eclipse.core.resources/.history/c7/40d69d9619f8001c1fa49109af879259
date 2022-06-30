@@ -1,0 +1,17 @@
+package com.microservicemysql.services;
+
+import java.util.Optional;
+
+import com.microservicemysql.models.entity.UsuarioEntity;
+
+public interface UsuarioService {
+	
+	public Iterable<UsuarioEntity> findAll();
+	
+	public Optional<UsuarioEntity> findById(Long id);
+	
+	public UsuarioEntity save(UsuarioEntity usuario);
+	
+	public void deleteById(Long id);
+	
+}
