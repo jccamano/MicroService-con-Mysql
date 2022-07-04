@@ -1,2 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\workspace\\.git;D\:\\workspace\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;D\:\\workspace\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
