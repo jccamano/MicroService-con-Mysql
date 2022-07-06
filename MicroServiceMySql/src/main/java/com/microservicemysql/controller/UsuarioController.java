@@ -1,6 +1,6 @@
 package com.microservicemysql.controller;
 
-import java.util.List;
+
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import lombok.Setter;
 
 @RestController
-@RequestMapping("/api/alumnos")
+@RequestMapping("/")
 public class UsuarioController {
 	
 	@Autowired
