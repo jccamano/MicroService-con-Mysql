@@ -1,5 +1,0 @@
-package com.microservicemysql.services;
-
-public interface UsuarioService {
-
-}

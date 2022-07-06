@@ -1,9 +1,0 @@
-package com.microservicemysql.models.repository;
-
-import org.springframework.data.repository.CrudRepository;
-
-import com.microservicemysql.models.entity.UsuarioEntity;
-
-public interface UsuarioRepository extends CrudRepository<UsuarioEntity, Long> {
-
-}

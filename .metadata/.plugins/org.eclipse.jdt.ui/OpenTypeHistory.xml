@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=MicroServiceMySql/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.microservicemysql.models.repository{UsuarioRepository.java[UsuarioRepository" modifiers="513" timestamp="1656554932636"/>
-    <typeInfo handle="=MicroServiceMySql/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.microservicemysql.services{UsuarioService.java[UsuarioService" modifiers="513" timestamp="1656554932649"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
