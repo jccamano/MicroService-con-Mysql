@@ -15,19 +15,19 @@ import javax.persistence.TemporalType;
 @Entity
 @Table(name = "cursos")
 public class CursoEntity {
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
+	
 	private String nombre;
-
+	
 	@Column(name = "fecha_creacion")
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date fechaCreacion;
-
+	
 	@PrePersist
-	public void creacionSistema() {
+	public void fechaCreacion() {
 		this.fechaCreacion = new Date();
 	}
 
@@ -54,5 +54,5 @@ public class CursoEntity {
 	public void setFechaCreacion(Date fechaCreacion) {
 		this.fechaCreacion = fechaCreacion;
 	}
-
+	
 }
