@@ -2,6 +2,8 @@ package com.app.microserviciocursos.service;
 
 import java.util.Optional;
 
+
+
 import com.app.microserviciocursos.models.entity.CursoEntity;
 
 public interface CursoService {

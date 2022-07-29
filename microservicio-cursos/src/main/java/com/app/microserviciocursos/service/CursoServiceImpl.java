@@ -3,11 +3,14 @@ package com.app.microserviciocursos.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.app.microserviciocursos.models.entity.CursoEntity;
-import com.app.microserviciocursos.repository.CursoRepository;
+import com.app.microserviciocursos.models.repository.CursoRepository;
 
+
+@Service
 public class CursoServiceImpl implements CursoService{
 
 	@Autowired

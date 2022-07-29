@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity.BodyBuilder"/>
     <fullyQualifiedTypeName name="com.microservicemysql.models.repository.UsuarioRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="com.microservicemysql.services.UsuarioService"/>
     <fullyQualifiedTypeName name="com.microservicemysql.models.entity.UsuarioEntity"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
@@ -45,4 +44,5 @@
     <fullyQualifiedTypeName name="com.app.microserviciocursos.service.CursoService"/>
     <fullyQualifiedTypeName name="com.app.microserviciocursos.models.entities.CursoEntity"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 </qualifiedTypeNameHistroy>
