@@ -45,4 +45,5 @@
     <fullyQualifiedTypeName name="com.app.microserviciocursos.models.entities.CursoEntity"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.app.microserviciocursos.models.repository.CursoRepository"/>
 </qualifiedTypeNameHistroy>
